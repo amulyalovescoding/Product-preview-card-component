@@ -7,22 +7,20 @@
 body {
   font-family: 'Montserrat', sans-serif;
   background-color: hsl(30, 38%, 92%);
-  font-size: 14px;
+  font-size: 0.875rem;
   min-height: 90vh;
   align-items: center;
-
 }
 
 h1 {
   font-family: 'Fraunces', serif;
-  font-size: 35px;
+  font-size: 2.1875rem;
   color: hsl(212, 21%, 14%);
-
 }
 
 h2 {
-  letter-spacing: 2.5px;
-  font-size: 14px;
+  letter-spacing: 0.15625rem;
+  font-size: 0.875rem;
   color: hsl(228, 12%, 48%);
   font-weight: 700;
 }
@@ -34,28 +32,29 @@ p {
 
 .top-container {
   display: flex;
-  margin: 40px auto;
-  padding: 0 40px;
+  margin: 2.5rem auto;
+  padding: 0 2.5rem;
   align-self: center;
 }
 
 .grid {
   background-color: #fff;
-  border-radius: 15px;
+  border-radius: 0.9375rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  overflow: hidden;
-  max-width: 700px;
+  max-width: 43.75rem;
   margin: auto;
 }
 
-.image-container img{
+.image-container img {
+  border-top-left-radius: 0.9375rem;
+  border-bottom-left-radius: 0.9375rem;
   max-width: 100%;
   display: inherit;
 }
 
 .content-container {
-  padding: 40px;
+  padding: 2.5rem;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -64,45 +63,51 @@ p {
 .price-active {
   color: hsl(158, 36%, 37%);
   font-family: 'Fraunces', serif;
-  font-size: 30px;
-  padding-right: 20px;
+  font-size: 1.875rem;
+  padding-right: 1.25rem;
 }
 
 .price-inactive {
   text-decoration: line-through;
-
 }
 
-@media only screen and (max-width: 630px) {
+@media only screen and (max-width: 39.375rem) {
   .grid {
     grid-template-columns: 1fr;
   }
+
   .image-container img {
-    max-height: 450px;
+    border-top-left-radius: 0.9375rem;
+    border-top-right-radius: 0.9375rem;
+    border-bottom-left-radius: 0;
+    max-height: 28.125rem;
     width: 100%;
     object-fit: cover;
   }
-  h1, h2, p, price-active, price-inactive, price-button{
-    padding-bottom: 10px;
+
+  h1, h2, p, price-active, price-inactive, price-button {
+    padding-bottom: 0.625rem;
   }
+
   .content-container {
     display: block;
   }
-  h1 {
-    font-size: 30px;
-  }
-.price-button {
-  align-self: center;
-  width: 100%;
-  border-radius: 10px;
-}
 
+  h1 {
+    font-size: 1.875rem;
+  }
+
+  .price-button {
+    align-self: center;
+    width: 100%;
+    border-radius: 0.625rem;
+  }
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 0.6875rem;
   text-align: center;
-  padding: 40px 0 40px 0;
+  padding: 2.5rem 0 2.5rem 0;
 }
 
 .attribution a {
