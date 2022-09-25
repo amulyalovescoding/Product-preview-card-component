@@ -19,8 +19,12 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ### Screenshot
 
-![desktop screenshot](\screenshots\Web capture_25-9-2022_153619_.jpeg)
-![Mobile screenshot](\screenshots\Web capture_25-9-2022_153711_.jpeg)
+Desktop Screenshot
+![desktop screenshot](https://github.com/amulyalovescoding/Product-preview-card-component/blob/main/screenshots/Web%20capture_25-9-2022_153619_.jpeg)
+
+
+Mobile Screenshot
+![Mobile screenshot](https://github.com/amulyalovescoding/Product-preview-card-component/blob/main/screenshots/Web%20capture_25-9-2022_153711_.jpeg)
 
 ### Links
 
