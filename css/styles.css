@@ -71,7 +71,7 @@ p {
   text-decoration: line-through;
 }
 
-//Footer
+/* Footer */
 .attribution {
   font-size: 0.6875rem;
   text-align: center;
@@ -86,7 +86,7 @@ p {
   color: #00BFBF;
 }
 
-// Media Query
+/* Media Query */
 @media only screen and (max-width: 39.375rem) {
   
   h1 {
