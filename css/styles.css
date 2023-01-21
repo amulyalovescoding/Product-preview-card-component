@@ -31,10 +31,10 @@ p {
 }
 
 .top-container {
-  display: flex;
-  margin: 2.5rem auto;
-  padding: 0 2.5rem;
-  align-self: center;
+   display: flex;
+   margin: 2.5rem auto;
+   padding: 0 1.5rem;
+   align-self: center;
 }
 
 .grid {
@@ -71,7 +71,32 @@ p {
   text-decoration: line-through;
 }
 
+//Footer
+.attribution {
+  font-size: 0.6875rem;
+  text-align: center;
+  padding: 2.5rem 0 2.5rem 0;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+  color: #00BFBF;
+}
+
+// Media Query
 @media only screen and (max-width: 39.375rem) {
+  
+  h1 {
+    font-size: 1.5rem;
+  }
+  
+  h1, h2, p, price-active, price-inactive, price-button {
+    padding-bottom: 0.625rem;
+  }
+  
   .grid {
     grid-template-columns: 1fr;
   }
@@ -85,16 +110,8 @@ p {
     object-fit: cover;
   }
 
-  h1, h2, p, price-active, price-inactive, price-button {
-    padding-bottom: 0.625rem;
-  }
-
   .content-container {
     display: block;
-  }
-
-  h1 {
-    font-size: 1.875rem;
   }
 
   .price-button {
@@ -102,18 +119,4 @@ p {
     width: 100%;
     border-radius: 0.625rem;
   }
-}
-
-.attribution {
-  font-size: 0.6875rem;
-  text-align: center;
-  padding: 2.5rem 0 2.5rem 0;
-}
-
-.attribution a {
-  color: hsl(228, 45%, 44%);
-}
-
-.attribution a:hover {
-  color: #00BFBF;
 }
